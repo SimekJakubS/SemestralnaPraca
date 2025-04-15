@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SemestralkaSimek.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hracAssety/Hrac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hracAssety/Inventar.java" afterDir="false" />
+    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="Prva kostra programu">
+      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hracAssety/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hracAssety/Hrac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hracAssety/Inventar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hracAssety/Inventar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +51,21 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nepriatelia" />
+      <recent name="hlavneCasti" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="hlavneCasti.Main" />
+      <module name="SemestralkaSimek" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +75,19 @@
       <option name="presentableId" value="Default" />
       <updated>1744701820452</updated>
     </task>
+    <task id="LOCAL-00001" summary="Prva kostra programu">
+      <option name="closed" value="true" />
+      <created>1744702067290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744702067290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Prva kostra programu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prva kostra programu" />
   </component>
 </project>
