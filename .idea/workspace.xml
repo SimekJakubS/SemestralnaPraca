@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="Prva kostra programu">
-      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" afterDir="false" />
+    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="Zakladna kostra programu">
+      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SemestralkaSimek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SemestralkaSimek.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavnaPonuka/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hracAssety/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hracAssety/Hrac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hracAssety/Inventar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hracAssety/Inventar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2vkvJpkZAyZoSzW1rg2ayAFKN7Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +53,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,11 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744702067290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Zakladna kostra programu">
+      <option name="closed" value="true" />
+      <created>1744702989879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744702989879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prva kostra programu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prva kostra programu" />
+    <MESSAGE value="Zakladna kostra programu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zakladna kostra programu" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SemestralkaSimek$Main.ic" NAME="Main Coverage Results" MODIFIED="1745745374648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

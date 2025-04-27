@@ -1,15 +1,12 @@
 package hlavneCasti;
 
-import hlavnaPonuka.Menu;
-import hlavneCasti.Hra;
+import hlavnaPonuka.HlavneMenu;
 
 public class Main {
     public static void main(String[] args) {
 
-        Menu m = new Menu();
+        HlavneMenu m = new HlavneMenu();
 
-        //starting new game
-        Hra hra = new Hra();
-        hra.spusti();
+
     }
 }
