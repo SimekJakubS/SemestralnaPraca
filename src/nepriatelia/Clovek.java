@@ -1,21 +1,22 @@
 package nepriatelia;
 
-public class Clovek extends Humanoid implements Nepriatel {
+import predmety.Predmet;
+import predmety.jedleVeci.Rozok;
+import predmety.zbrane.Exkkalibur;
+import predmety.zbrane.Zbran;
 
-    public Clovek() {
-        super(2000);
+public class Clovek extends Nepriatel {
 
+    private Predmet poklad = new Rozok();
+    private Zbran ex = new Exkkalibur();
 
+    public Clovek(String meno, int zivot, int utok, int obrana, int uroven) {
+        super(meno, zivot, utok, obrana, uroven);
+
+        this.nasadPredmet(this.poklad);
+        this.nasadPredmet(this.ex);
     }
 
 
-    @Override
-    public String smrtHlaska() {
-        return "NIEEE MOJ LUDSKY KMEN, OPUSTAM VAS!";
-    }
 
-    @Override
-    public String utokHlaska() {
-        return "MOJA SMRT NIEJE KONIEC!";
-    }
 }

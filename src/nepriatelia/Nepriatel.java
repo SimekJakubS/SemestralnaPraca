@@ -1,9 +1,16 @@
 package nepriatelia;
 
-public interface Nepriatel {
+import hracAssety.Hrac;
+import predmety.Predmet;
 
-    String smrtHlaska();
-    String utokHlaska();
-    int getHp();
-    void setHp(int hp);
+public class Nepriatel extends Hrac {
+
+    public Nepriatel(String meno, int zivot, int utok, int obrana, int uroven) {
+        super(meno, zivot, utok, obrana, uroven);
+
+    }
+
+    public Predmet zoberPredmety() {
+        return this.getInventar().get(0);
+    }
 }

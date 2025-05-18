@@ -4,21 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="Zakladna kostra programu">
-      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="bd8f057b-8e7f-4a6b-97b4-91e80ef4d7f8" name="Changes" comment="pokracovanie zadania">
+      <change afterPath="$PROJECT_DIR$/src/hlavnaPonuka/HerneMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/Arena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hlavneCasti/UrovneSuboja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nepriatelia/Sliz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/Predmet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/Jedlo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/LiecivyKoktejl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/LiecivyPredmet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/Pozehnanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/Rozok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/jedleVeci/ZlateJablko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/zbrane/Exkkalibur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/zbrane/Ingrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/zbrane/Kusa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/zbrane/StitoKopia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predmety/zbrane/Zbran.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SemestralkaSimek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SemestralkaSimek.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hlavnaPonuka/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavnaPonuka/HlavneMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Hra.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Hra.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hlavneCasti/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hlavneCasti/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hracAssety/Hrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hracAssety/Hrac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hracAssety/Inventar.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Clovek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Humanoid.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Nepriatel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nepriatelia/Vozidlo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +68,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "97",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "334",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="nepriatelia" />
+      <recent name="predmety.jedleVeci" />
+      <recent name="predmety.zbrane" />
+      <recent name="predmety" />
       <recent name="hlavneCasti" />
     </key>
   </component>
@@ -98,13 +119,30 @@
       <option name="project" value="LOCAL" />
       <updated>1744702989879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pokracovanie zadania">
+      <option name="closed" value="true" />
+      <created>1745747192116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745747192116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pokracovanie zadania">
+      <option name="closed" value="true" />
+      <created>1745747256389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745747256389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prva kostra programu" />
     <MESSAGE value="Zakladna kostra programu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zakladna kostra programu" />
+    <MESSAGE value="pokracovanie zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokracovanie zadania" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SemestralkaSimek$Main.ic" NAME="Main Coverage Results" MODIFIED="1745745374648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
